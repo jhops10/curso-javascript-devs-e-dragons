@@ -26,4 +26,4 @@ personagemPedrinho.mana = 12;
 personagemPedrinho.level = 5;
 personagemPedrinho.tipo = 'Mago';
 
-console.log(personagemPedrinho);
+console.log(personagemPedrinho.obterInsignia());
