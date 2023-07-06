@@ -5,6 +5,12 @@ export class Personagem {
   level;
   tipo;
 
+  constructor(nome, level, tipo) {
+    this.nome = nome;
+    this.level = level;
+    this.tipo = tipo;
+  }
+
   obterInsignia() {
     if (this.level >= 5) {
       return `Implacável ${this.tipo}`
