@@ -9,7 +9,7 @@ const magoMerlin = new Mago('Merlin', 5, 'Gelo', 3, 5);
 const robinHood = new Arqueiro('Robin Hood', 1, 3);
 const arqueiroMagoChico = new ArqueiroMago('Chico', 7, 10, 'Vento', 4, 8);
 
-const personagens = [magoJhops, magoMerlin, paladoxJhops, robinHood, arqueiroMagoChico];
+const personagens = [magoJhops, magoMerlin, robinHood, arqueiroMagoChico];
 
 new PersonagemView(personagens).render();
 
