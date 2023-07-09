@@ -13,4 +13,3 @@ const personagens = [magoJhops, magoMerlin, robinHood, arqueiroMagoChico];
 
 new PersonagemView(personagens).render();
 
-console.log(magoJhops)
