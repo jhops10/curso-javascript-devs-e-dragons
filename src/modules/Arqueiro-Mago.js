@@ -18,3 +18,4 @@ export class ArqueiroMago extends Personagem {
     return `${this.ladoArqueiro.obterInsignia()} e ${this.ladoMago.obterInsignia()}`
   }
 }
+
